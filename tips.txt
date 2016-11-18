@@ -1,0 +1,45 @@
+To switch to the master branch
+git checkout master
+
+To push
+$> git push -f origin master
+
+
+https://digwp.com/2011/09/using-instead-of-jquery-in-wordpress/
+https://pippinsplugins.com/use-wp_localize_script-it-is-awesome/
+
+
+To clean the database using wp cli
+$> wp db reset
+$> wp empty site
+
+To add theme unit test data
+https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml
+
+/**
+ *  phpunit
+ */
+Where are all assert functions defined and all annotations.
+https://phpunit.de/manual/current/en/index.html
+
+/**
+ *  phpDocumentor
+ */
+phpDocumentor 2.8.5 is the default version with Ubuntu 16.04.
+However, php7 support wasn't added until 2.9. So we need 2.9
+
+sudo apt-get install php7.0-mbstring
+wget https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar
+chmod +x phpDocumentor.phar
+
+If you installed phpDocumentor from pear, use the following to remove it:
+
+sudo pear uninstall phpdoc/phpDocumentor
+
+Run it via:
+php phpDocumentor.phar run -d <SOURCE_DIRECTORY> -t <TARGET_DIRECTORY>
+php phpDocumentor.phar run -d ./.. -t .
+
+
+May also be needed
+sudo apt-get install graphviz

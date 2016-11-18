@@ -1,0 +1,7 @@
+#similar3{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.similar3container > .title{
+	display:block;
+}

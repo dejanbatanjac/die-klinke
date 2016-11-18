@@ -1,0 +1,45 @@
+# Copyright (C) 2016 Die Klinke
+# This file is distributed under the same license as the Die Klinke package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Die Klinke 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/die-klinke\n"
+"POT-Creation-Date: 2016-11-10 17:25:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: die-klinke.php:70
+msgid "See related articles"
+msgstr "Siehe ähnliche Artikel"
+
+#: version-checker.php:22
+msgid ""
+"The plugin requires WordPress 4.5 or higher. The plugin has now disabled "
+"itself."
+msgstr ""
+
+#: version-checker.php:31
+msgid ""
+"The plugin requires PHP version higher than 5.6.0. The plugin has now "
+"disabled itself."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Die Klinke"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Related posts Ajax loader plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dejan Batanjac"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://programming-review.com/"
+msgstr ""
