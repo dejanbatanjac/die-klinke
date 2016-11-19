@@ -9,7 +9,6 @@ Includes the following important files/folder:
 * `.gitignore`. Used to exclude certain files from the repository.
 * `CHANGELOG.md`. The list of changes to the core project.
 * `README.md`. The file that you’re currently reading.
-* `test` directory that contains different testing artifacts.
 
 ## Uses
 
