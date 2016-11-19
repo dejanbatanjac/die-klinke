@@ -79,7 +79,7 @@ require  DK_20161118_PLUGIN_DIR . 'src/helper.php';
        *
        * We have translation de_DE for now.
        * There is a tricks I saw in Yoast's WordPress Seo plugin
-       * with l`oad_muplugin_textdomain()`
+       * with `load_muplugin_textdomain()`
        *
        * This function works on WordPress MU. Tested.
        *
