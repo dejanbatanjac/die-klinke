@@ -278,10 +278,8 @@ require  DK_20161118_PLUGIN_DIR . 'src/helper.php';
         if ( is_single() ) {
 
           wp_enqueue_style( 'dk-script', DK_20161118_PLUGIN_URL . 'css/dk-default.css', null, '2016-11-11', 'all' );
-
           wp_enqueue_script( 'dk-script', DK_20161118_PLUGIN_URL . 'js/dk-ajax.js', 'jquery', '2016-11-11', true );
-
-          // We know for sure WordPress uses jquery-core
+         
           $ajaxurl = admin_url( 'admin-ajax.php' );
           global $post;
           $post_id = $post->ID;
