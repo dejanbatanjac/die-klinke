@@ -1,0 +1,8 @@
+{
+    "preset": "wordpress",
+    "requireCamelCaseOrUpperCaseIdentifiers": false,
+    "fileExtensions": [ ".js" ],
+    "excludeFiles": [
+        "js/no.js",
+    ]
+}
